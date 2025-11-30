@@ -1,0 +1,56 @@
+html, body{
+height: 100%;
+margin: 0;
+padding: 0;
+}
+.contenedor{
+width: 100%;
+height: 70%;
+display: flex;
+margin: 0;
+padding: 0;
+}
+.izquierda{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.C{
+    flex: 3;
+    background-color: aqua;
+}
+.D{
+    flex: 4;
+    background-color: blueviolet;
+}
+.derecha{
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.B{
+    flex: 1;
+    background-color: chartreuse;
+}
+.inferior{
+height: 30%;
+width: 100%;
+display: flex;
+}
+.A{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.F{
+    height: 100%;
+    width: 50%;
+    background-color: gold;
+}
