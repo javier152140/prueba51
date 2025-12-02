@@ -20,6 +20,7 @@ padding: 0;
 }
 .C{
     flex: 3;
+    font-size: 9px;
     background-color: aqua;
 }
 .D{
@@ -44,6 +45,7 @@ display: flex;
 }
 .A{
     height: 100%;
+    font-size: 9px;
     width: 50%;
     background-color: blue;
     margin: 0;
