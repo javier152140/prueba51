@@ -21,6 +21,12 @@ html, body{
     flex-direction: column;
     padding: 0;
     margin: 0;
+    
+}
+.F{
+    height: 20%;
+    width: 100%;
+    background-color: fuchsia;
 }
 .C{
     flex: 3;
@@ -28,7 +34,7 @@ html, body{
     background-color: aqua;
 }
 .D{
-    flex: 4;
+    flex: 2;
     background-color: chartreuse;
 }
 .accion{
@@ -73,7 +79,7 @@ html, body{
     box-shadow: 5px 5px 10px grey;
     padding: 1.5%;
     font-size: 10px;
-    width: 50%;
+    width: 100%;
     background-color: crimson;
     box-sizing: border-box;
     transition: color 1s ease;
@@ -81,11 +87,7 @@ html, body{
 .A:hover{
     color: blue;
 }
-.F{
-    height: 100%;
-    width: 50%;
-    background-color: fuchsia;
-}
+
 .E{
     bottom: 0;
    right: 0;
